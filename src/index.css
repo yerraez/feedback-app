@@ -58,6 +58,26 @@ header {
   justify-content: space-around;
   margin: 30px 0 40px;
 }
+.ColorRankingExcellent{
+background-color: #A8DF7C;
+}
+
+.ColorRankingHappy{
+  background-color: #DFDD68;
+}
+
+.ColorRankingAverage{
+    background-color: #FFDB53;
+}
+
+.ColorRankingFair{
+  background-color: #FFB564;
+}
+
+.ColorRankingPoor{
+  background-color: #FF9274;
+}
+
 
 .rating li,
 .num-display {
