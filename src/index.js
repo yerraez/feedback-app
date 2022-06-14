@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React, { StrictMode } from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
