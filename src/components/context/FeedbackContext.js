@@ -8,20 +8,20 @@ export const FeedbackProvider = ({children}) => {
         [
             {
                 id: 1,
-                text: 'This feedback item 1',
+                text: 'Agradable experiencia, muy recomendado',
                 rating: 10,
 
             },
             {
                 id: 2,
-                text: 'This feedback item 2',
-                rating: 4,
+                text: 'Fue una buena experiencia, sin embargo agradeceria puntualidad',
+                rating: 8,
 
             },
             {
                 id: 3,
-                text: 'This feedback item 3',
-                rating: 3,
+                text: 'El producto no cumple mis expectativas',
+                rating: 5,
 
             }
         ])
@@ -40,7 +40,7 @@ export const FeedbackProvider = ({children}) => {
 
       // Delete feedback
     const deleteFeedback = (id) => {
-        if(window.confirm('Are you sure you want to delete?'))
+        if(window.confirm('¿Estas seguro que deseas eliminar el comentario?'))
         {
           setFeedback(feedback.filter((item) => item.id !== id))
         }

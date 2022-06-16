@@ -6,7 +6,7 @@ import FeedbackContext from './context/FeedbackContext'
 function FeedbackList() {
     const {feedback} = useContext(FeedbackContext)
     if(!feedback || feedback.leght === 0){
-        return <p>Not Feedback yet</p>
+        return <p>No exite ningun comentario</p>
     }
     return (
         <div claasname='feedback-list'>
