@@ -1,5 +1,6 @@
 
 import { useContext } from 'react'
+import React from 'react'
 import FeedbackContext from './context/FeedbackContext'
 
 function FeedbackStats() {
